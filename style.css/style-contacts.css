@@ -1,0 +1,230 @@
+.container-contacts{
+    height: 150vh;
+    width: 100%;
+    background-image: url(../images/contact-form.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contact-form{
+    padding: 20px 10%;
+}
+
+form{
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 100px;
+}
+
+.input-group{
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+input ,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    height: 75px;
+    
+}
+
+label{
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+    font-size: 30px;
+
+}
+
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 80%;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top:-35px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 480px){
+    
+    .container-contacts{
+        height: 200vh;
+        width: 100%;
+        background-image: url(../images/contact-form.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-form{
+        padding: 160px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form{
+        width: 80%;
+        max-width: 1000px;
+        margin-top: 100px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1025px){
+    
+    .container-contacts{
+        height: 300vh;
+        width: 100%;
+        background-image: url(../images/contact-form.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 200px 50px;
+    }
+
+    .input-group{
+        margin-bottom: 100px;
+        position: relative;
+        
+    }
+
+    input ,textarea{
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        font-size: 50px;
+        height: 150px;
+        
+    }
+    
+    label{
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s;
+        font-size: 50px;
+    
+    }
+    
+    button{
+        padding: 10px 0;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: 1px solid #fff;
+        width: 100%;
+        cursor: pointer;
+        font-size: 50px;
+    
+    }
+
+
+}
+
+@media only screen and (max-width: 319px){
+    
+    .container-contacts{
+        height: 300vh;
+        width: 100%;
+        background-image: url(../images/contact-form.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-group{
+        margin-bottom: 50px;
+        position: relative;
+        
+    }
+
+    input ,textarea{
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        font-size: 50px;
+        height: 100px;
+        
+    }
+    
+    label{
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s;
+        font-size: 30px;
+    
+    }
+    
+    button{
+        padding: 10px 0;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: 1px solid #fff;
+        width: 100%;
+        cursor: pointer;
+        font-size: 50px;
+    
+    }
+
+    form{
+        width: 80%;
+        max-width: 1000px;
+        margin-top: 100px;
+    }
+
+
+}
+
+
